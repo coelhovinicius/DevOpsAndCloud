@@ -1,0 +1,62 @@
+DevOps & Cloud:
+
+Projeto - Homebrooker
+Ambiente de uma bolsa de valores. Compra e venda de ações.
+
+Microsserviços:
+- Front-End - interação com o usuário;
+- API com banco de dados MongoDB;
+- Kafka - serviço de mensageria;
+- Worker para consumo do Kafka.
+
+Pipeline de Integração Contínua e de Entrega Contínua:
+O dev insere o código, faz o commit e dispara uma ação no GitHub Actions - Controle de versões e releases. Monitorado com Prometheus e Grafana.
+
+Etapas do Projeto:
+- Empacotamento das aplicações e imagens Docker para executar em containers; - Aula 1
+- Rodar a aplicação em ambientes Kubernetes locais usando K3D e ambiente de nuvem com AWS; - Aulas 2 e 3
+- Automatizar a entrega das aplicações usando pipeline CI/CD com GitHub Acstions; - Aula 4
+- Monitorar a aplicação e a infraestrutura para saber se interar sobre o que está acontecendo e se antecipar aos problemas; - Aula 5
+- Utilizar Infraestrutura como Código para criar a infraestrutura para conseguir agilidade, reaproveitamento e confiabilidade. - Aula 6
+
+DevOps - Cinco Princípios - CALMS;
+
+Culture - Rever a cultura da empresa:
+- A cultura é a base do DevOps;
+- Colaboração com confiança, comunicação e trabalho em equipe;
+- Insentivar aprendizado e melhoria contínua.
+
+Automation - Automatização dos processos repetitivos:
+- Garante velocidade, confiabilidade e replicação na execução dos processos;
+- Automatizar processos revisados e validados, que sejam, realmente, eficientes e coerentes com as regras de negócio, que entreguem valor ao cliente;
+- Tudo o que for manual e repetitivo deve ser automatizado, para focar em tarefas de maior valor.
+
+Lean - Fazer mais com o mesmo tempo:
+- Eliminar desperdícios e otimizar o fluxo de entrega;
+- Diminuir a quantidade de working in progress - WIP;
+- Maximizar a eficiência e qualidade.
+
+Mesurement - Mensuração informações referentes às aplicações:
+- O que não é medido, não é gerenciado e, consequentemente, não é melhorado;
+- Antecipação em relação a problemas, dando uma experiência melhor para o cliente;
+- Metrificar focando elementos relevantes;
+- Maior confiabilidade;
+- Melhor 
+
+Sharing - Integração da equipe com foco no negócio e em gerar valor para o cliente:
+- O conhecimento precisa ser descentralizado;
+- Compartilhamento promove colaboração e inovação;
+- Compartilhar entre as equies gera padronização e eficiência.
+ 
+Etapas Devops - Oito Etapas Fluxo Contínuo:
+- Planejamento - novas features, correções, alguma demanda do usuário;
+- Codificação;
+- Building - construção dessa nova versão criada;
+- Teste - começar o mais rápido possível;
+- Release - nov versão da aplicação;
+- Deploy - lançamento do produto para uso do cliente;
+- Operação - manutenção da infraestrutura, dos elementos de construção da aplicação;
+- Monitoramento - coleção dos dados referentes à aplicação, o que foi impactado na infraestrutura.
+
+Ferramentas DevOps:
+- 
